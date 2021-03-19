@@ -1,0 +1,66 @@
+@charset"utf-8";
+*{-webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box;}
+body{font-family:'Poiret One'; margin:0; padding:0;}
+ul{list-style:none; margin:0; padding:0;}
+a{text-decoration:none;}
+p, h1, h2, h3, h4, h5, h6{margin:0;}
+
+
+/*header*/
+header{width:280px; height:100%; background:#6ab3b2; box-shadow:inset 0 0 15px #000; position:fixed;}
+.header-frame{width:100%; height:100%; position:relative;}
+.logo{width:100%; height:auto; text-align:center; padding:85px 0;}
+.logo img{width:145px;}
+nav{}
+nav>ul{}
+nav>ul>li{border-bottom:1px solid #fff; text-align:center;}
+nav>ul>li:first-child{border-top:1px solid #fff;}
+nav>ul>li>a{font-size:18px; color:#fff; display:block; line-height:59px;}
+nav>ul>li:hover>a{background:#fff; color:#6ab3b2; box-shadow:inset 1px 1px 3px #000;}
+.icon{display:none;}
+.link{position:absolute; bottom:20px; width:100%; text-align:center;}
+.link p{font-size:18px; color:#fff; text-align:center; padding-bottom:10px;}
+.link ul{font-size:0; text-align:center;}
+.link ul li{display:inline-block;}
+.link ul li a{}
+.link ul li a img{padding:0 5px;}
+
+.moblie{display:none;}
+
+/*section*/
+section{width:100%; height:auto;}
+article{width:calc(100% - 280px); height:auto; margin-left:280px;}
+.cont-box{width:25%; height:220px; float:left;}
+.cont-01{width:50%; height:440px; background:url('../img/t-1-213373_640x480.jpg') no-repeat 50% 50%; background-size:cover;}
+.cont-02{background:url('../img/t-3-325075_640x480.jpg') no-repeat 50% 50%; background-size:cover;}
+.cont-03{background:url('../img/t-21-545213_640x480.jpg') no-repeat 50% 50%; background-size:cover;}
+.cont-04{background:url('../img/t-7-360109_640x480.jpg') no-repeat 50% 50%; background-size:cover;}
+.cont-05{background:url('../img/t-8-308603_640x480.jpg') no-repeat 50% 50%; background-size:cover;}
+.cont-06{background:url('../img/t-9-340072_640x480.jpg') no-repeat 50% 50%; background-size:cover;}
+.cont-07{width:50%; background:url('../img/t-17-247234_640x480.jpg') no-repeat 50% 50%; background-size:cover;}
+.cont-08{background:url('../img/shutterstock_58264459-111274_640x480.jpg') no-repeat 50% 50%; background-size:cover;}
+.cont-09{background:url('../img/t-13-584189_640x480.jpg') no-repeat 50% 50%; background-size:cover;}
+.cont-10{background:url('../img/shutterstock_56785618-132726_640x480.jpg') no-repeat 50% 50%; background-size:cover;}
+.cont-11{width:50%; background:url('../img/t-5-236106_640x480.jpg') no-repeat 50% 50%; background-size:cover;}
+.cont-12{width:50%; background:url('../img/t3-8-321596_640x480.jpg') no-repeat 50% 50%; background-size:cover;}
+.cont-13{background:url('../img/t-19-373493_640x480.jpg') no-repeat 50% 50%; background-size:cover;}
+.cont-14{background:url('../img/t3-9-289799_640x480.jpg') no-repeat 50% 50%; background-size:cover;}
+
+.cont-box .rgba{width:100%; height:100%; background:rgba(255,170,0,0.8); text-align:center; font-size:0; transition:all 1s; opacity:0;}
+.cont-box .rgba .table{width:100%; height:100%; display:table; position:relative; overflow:hidden;}
+.cont-box .rgba .table .text-box{width:100%; height:100%; display:table-cell; text-align:center; vertical-align:middle;}
+.cont-box .rgba h3{font-size:30px; color:#fff; line-height:1; padding:10px 0 10px 0;}
+.cont-box .rgba p:nth-child(2){font-size:18px; color:#fff; line-height:1; padding-bottom:10px;}
+.cont-box .rgba .line{margin:0 auto; width:102px; height:4px; background:#fff; margin-bottom:10px;}
+.cont-box .rgba p:nth-child(4){font-size:14px; color:#fff; line-height:1; padding-bottom:10px;}
+.cont-box .rgba a{display:block; width:40px; height:40px; border-radius:50%; background:#fff; text-align:center; padding-top:8px; margin:0 auto; position:absolute; bottom:-60px; transition:all 1s; left:calc(50% - 20px);}
+.cont-box .rgba:hover a{bottom:25px;}
+.cont-box:hover .rgba{opacity:1;}
+
+.cont-01 .rgba:hover a{bottom:120px;}
+
+.cont-box:nth-child(7) .rgba .table, .cont-box:nth-child(11) .rgba .table, .cont-box:nth-child(12) .rgba .table{width:50%;}
+
+footer{width:100%; height:30px; clear:both; padding-top:10px; display:none;}
+.footer-box{width:100%; height:20px; background:#6ab3b2; text-align:center; }
+.footer-box p{font-size:12px; color:#fff;}
